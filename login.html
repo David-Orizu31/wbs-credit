@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wbscreditunoin</title>
 <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="js/bootstrap.min.js"></script>
+
 <script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 </head>
 
@@ -45,17 +46,53 @@
                             </div>
                       
                         </form>
+
+                        <br>
+                        <div class="row mx-auto"> 
+
+                            <div class="col-md-6">
+                            <a href="https://play.google.com/store/apps/details?id=com.ksplash38.wbs">
+                                <img src="img/google-play.png" alt="get-app-on-play-store" class="img img-responsive" width="150px">
+                            </a> 
+                        </div>
+                             
+                        <div class="col-md-6">
+                            <a href="" type="button" class="btn btn-white text-right" data-toggle="modal" data-target="#applemodal">
+                                <img src="img/apple-store.png" alt="get-app-on-play-store" class="img img-responsive" width="150px">
+                            </a>
+                        </div>
+                             </div>
                     </div>
-                    <br>
-                    <div class="text-right">
-                    <a href="https://play.google.com/store/apps/details?id=com.ksplash38.wbs">
-                        <img src="img/get-app.png" alt="get-app-on-play-store" class="img img-responsive" width="120px">
-                    </a>
+                    
+                   
+  
+  <!-- Modal -->
+  <div class="modal fade" id="applemodal" tabindex="-1" role="dialog" aria-labelledby="applemodalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-info" id="exampleModalLabel">Not available</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+             <h5>Sorry Apple store is available now kindly close or press OK to go back</h5>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                       
                 </div>
                 </div>
             </div>
         </div>
-    </div>
 </body>
 
  </html>
